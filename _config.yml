@@ -1,6 +1,6 @@
 name: sergioaugrod
 description: Programação e pão de queijo
-meta_description: "Programação e pão de queijo"
+meta_description: 'Programação e pão de queijo'
 
 markdown: kramdown
 highlighter: rouge
@@ -14,3 +14,6 @@ gems: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 # Details for the RSS feed generator
 url:            'http://www.sergioaugrod.com.br'
 author:         'Sérgio Rodrigues'
+
+# SEO
+lang: 'pt_BR'
