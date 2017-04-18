@@ -2,6 +2,7 @@
 layout: post
 title:  "Criando uma API em Clojure"
 date:   2016-11-26 18:28:00
+disqus: true
 categories: clojure
 ---
 

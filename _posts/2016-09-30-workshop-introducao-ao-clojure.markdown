@@ -2,6 +2,7 @@
 layout: post
 title:  "Workshop de Introdução ao Clojure"
 date:   2016-09-30 23:51:00
+disqus: true
 categories: clojure
 ---
 

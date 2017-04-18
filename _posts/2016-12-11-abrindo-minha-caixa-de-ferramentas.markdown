@@ -2,6 +2,7 @@
 layout: post
 title:  "Abrindo minha caixa de ferramentas"
 date:   2016-12-11 11:24:00
+disqus: true
 categories: toolbox offtopic
 ---
 

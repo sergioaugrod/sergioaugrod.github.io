@@ -2,6 +2,7 @@
 layout: post
 title:  "Home Instinct: Coletando métricas da minha casa"
 date:   2016-10-09 14:27:00
+disqus: true
 categories: iot clojure
 ---
 

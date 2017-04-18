@@ -2,6 +2,7 @@
 layout: post
 title:  "Dicas rápidas para aumentar sua segurança no Linux"
 date:   2017-01-19 00:11:00
+disqus: true
 categories: security linux
 ---
 

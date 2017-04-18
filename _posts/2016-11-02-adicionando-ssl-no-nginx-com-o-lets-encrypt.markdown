@@ -2,6 +2,7 @@
 layout: post
 title:  "Adicionando SSL no NGINX com o Let's Encrypt"
 date:   2016-11-02 21:30:00
+disqus: true
 categories: security
 ---
 

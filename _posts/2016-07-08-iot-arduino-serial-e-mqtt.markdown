@@ -2,6 +2,7 @@
 layout: post
 title:  "IoT: Arduino, Serial e MQTT"
 date:   2016-07-08 01:09:00
+disqus: true
 categories: iot mqtt arduino
 ---
 

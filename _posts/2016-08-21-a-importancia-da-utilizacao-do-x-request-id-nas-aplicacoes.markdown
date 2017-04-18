@@ -2,6 +2,7 @@
 layout: post
 title:  "A importância da utilização do X-Request-ID nas aplicações"
 date:   2016-08-21 22:21:00
+disqus: true
 ---
 
 O **Request-ID** é um identificador aleatório que identifica uma requisição, ele é importante para rastrear e mapear o fluxo de ações realizadas a partir de uma requisição na aplicação.

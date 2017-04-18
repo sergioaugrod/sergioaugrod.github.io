@@ -2,6 +2,7 @@
 layout: post
 title:  "Hello World"
 date:   2016-06-26 13:09:00
+disqus: true
 ---
 
 Olá pessoal, me chamo Sérgio, sou graduado em Sistemas de Informação pela Universidade Federal de Lavras - UFLA, e trabalho e estudo desenvolvimento de software a uns 8 anos. Posso me resumir bem, como um apaixonado por tecnologia.

@@ -2,6 +2,7 @@
 layout: post
 title:  "IoT: Troca de mensagens com o MQTT"
 date:   2016-06-27 16:32:00
+disqus: true
 categories: iot mqtt
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "Entendendo o processo de compilação"
 date:   2017-02-27 18:01:00
+disqus: true
 categories: compilers
 ---
 

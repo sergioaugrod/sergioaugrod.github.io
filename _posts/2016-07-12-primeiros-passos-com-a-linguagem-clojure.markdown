@@ -2,6 +2,7 @@
 layout: post
 title:  "Primeiros passos com a linguagem Clojure"
 date:   2016-07-12 22:49:00
+disqus: true
 categories: clojure getting-started
 ---
 

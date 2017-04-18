@@ -2,6 +2,7 @@
 layout: post
 title:  "Conhecendo o Node MCU ESP8266"
 date:   2017-01-21 23:12:00
+disqus: true
 categories: iot
 ---
 
