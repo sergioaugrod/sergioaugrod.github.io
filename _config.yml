@@ -9,7 +9,7 @@ paginate: 5
 baseurl: /
 domain_name: 'https://www.sergioaugrod.com.br'
 google_analytics: 'UA-80000306-1'
-gems: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
+gems: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-admin]
 
 # Details for the RSS feed generator
 url:            'https://www.sergioaugrod.com.br'
