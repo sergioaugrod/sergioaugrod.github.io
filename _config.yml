@@ -15,5 +15,6 @@ gems:
 - jekyll-sitemap
 - jekyll-admin
 url: https://www.sergioaugrod.com.br
+base_url: "/"
 author: Sérgio Rodrigues
 lang: pt_BR
