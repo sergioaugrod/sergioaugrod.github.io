@@ -7,6 +7,7 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 5
+baseurl: "/"
 domain_name: https://www.sergioaugrod.com.br
 google_analytics: UA-80000306-1
 gems:
@@ -15,6 +16,5 @@ gems:
 - jekyll-sitemap
 - jekyll-admin
 url: https://www.sergioaugrod.com.br
-base_url: "/"
 author: Sérgio Rodrigues
 lang: pt_BR
