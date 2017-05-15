@@ -2,6 +2,7 @@
 title: Migrando do Ghost para o GitHub Pages
 layout: post
 date: '2017-05-14 09:29:37'
+disqus: 'true'
 categories: offtopic
 ---
 
