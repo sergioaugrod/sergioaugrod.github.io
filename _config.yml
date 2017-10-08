@@ -7,7 +7,7 @@ markdown: kramdown
 highlighter: rouge
 logo: false
 paginate: 5
-baseurl: "/"
+baseurl: /
 domain_name: https://www.sergioaugrod.com.br
 google_analytics: UA-80000306-1
 plugins:
