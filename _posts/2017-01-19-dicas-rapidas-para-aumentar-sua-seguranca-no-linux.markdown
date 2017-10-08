@@ -34,7 +34,7 @@ $ sudo systemctl stop nginx
 
 *Ao executar um comando administrativo pela primeira vez na sessão, será necessário digitar a senha de seu usuário.*
 
-**Para evitar que alguém autentique com o usuário root, podemos desabilitar a sua permissão de login, editando o arquivo:**
+**Para evitar que alguém autentique com o usuário root via ssh, podemos desabilitar a sua permissão de login, editando o arquivo:**
 
 {% highlight shell_session %}
 $ sudo vim /etc/ssh/sshd_config
