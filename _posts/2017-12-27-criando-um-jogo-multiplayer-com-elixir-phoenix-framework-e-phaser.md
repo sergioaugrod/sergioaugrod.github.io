@@ -58,7 +58,7 @@ A *syntax* da linguagem é muito elegante, bem parecida com a do *Ruby*, e conta
 
 ### Phoenix Framework
 
-**Phoenix** é um *framework* web para a linguagem *Elixir*. Sua experiência de uso é bem similar ao framework *Rails*, com suas particularidades devido ao paradigma da linguagem *Elixir*. Um dos seus principais *cases* é a sua escalabilidade quando o assunto é *web sockets*. Atualmente é uma das melhores opções quando o requisito de sua aplicação é ser *realtime*, além da escalabilidade citada anteriormente, a facilidade do uso também é um grande destaque.
+**Phoenix** é um *framework* web para a linguagem *Elixir*. Sua experiência de uso é bem similar ao framework *Rails*, com suas particularidades devido ao paradigma da linguagem *Elixir*. Um dos seus principais *cases* é a sua escalabilidade quando o assunto é *websockets*. Atualmente é uma das melhores opções quando o requisito de sua aplicação é ser *realtime*, além da escalabilidade citada anteriormente, a facilidade do uso também é um grande destaque.
 
 ### Phaser
 
@@ -285,7 +285,32 @@ end
 
 #### GameServer
 
-Para finalizar a seção de desenvolvimento, temos o `GameServer`, que é responsável por executar as *engines* do jogo. Atualmente o **UaiShot** possui somente a *engine* de batalha. A `Battle Engine` basicamente move as balas do jogo, verifica se uma bala acertou uma nave e também atualiza o *ranking*. O `GameServer` dispara um *broadcast* para o *client* ao realizar cada uma dessas ações. Abaixo o código fonte deste módulo:
+Para finalizar a seção de desenvolvimento, temos o `GameServer`, que é responsável por executar as *engines* do jogo. O `GameServer` é basicamente  um processo que executa as `engines` a cada intervalo de `20ms`:
+
+{% highlight elixir %}
+defmodule UaiShot.GameServer do
+  use GenServer
+  alias UaiShot.Engine.Battle
+
+  @worker_interval 20
+
+  def start_link(state \\ []) do
+    GenServer.start_link(__MODULE__, state, name: __MODULE__)
+  end
+
+  def init(state) do
+    :timer.send_interval(@worker_interval, :work)
+    {:ok, state}
+  end
+
+  def handle_info(:work, state) do
+    Battle.run()
+    {:noreply, state}
+  end
+end
+{% endhighlight %}
+
+Atualmente o **UaiShot** possui somente a *engine* de batalha. A `Battle Engine` basicamente move as balas do jogo, verifica se uma bala acertou uma nave e também atualiza o *ranking*. O `Battle Engine` dispara um *broadcast* para os *clients* ao realizar cada uma dessas ações:
 
 {% highlight elixir %}
 defmodule UaiShot.Engine.Battle do
