@@ -6,7 +6,7 @@ disqus: 'true'
 categories: compilers
 ---
 
-Neste artigo, vamos aprender como criar uma linguagem de programação simples com o **ANTLR4**, que é uma ferramenta em que você define uma gramática, e por meio do resultado de sua gramática você cria os comportamentos de sua linguagem. Recomendo a leitura do artigo [Entendendo o Processo de Compilação](https://www.sergioaugrod.com.br/compilers/2017/02/27/entendendo-o-processo-de-compilacao.html) que tem uma explicação um pouco mais detalhada sobre o que é Análise Léxica e Análise Sintática, que é o resultado gerado pelo ANTLR4 por meio de sua gramática.
+Neste artigo, vamos aprender como criar uma linguagem de programação simples com o **ANTLR4**, que é uma ferramenta em que você define uma gramática, e por meio do resultado de sua gramática você cria os comportamentos de sua linguagem. Recomendo a leitura do artigo [Entendendo o Processo de Compilação](https://www.sergioaugrod.com/compilers/2017/02/27/entendendo-o-processo-de-compilacao.html) que tem uma explicação um pouco mais detalhada sobre o que é Análise Léxica e Análise Sintática, que é o resultado gerado pelo ANTLR4 por meio de sua gramática.
 
 #### Instalando o ANTLR4 no Linux
 

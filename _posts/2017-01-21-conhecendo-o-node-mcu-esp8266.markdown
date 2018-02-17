@@ -126,7 +126,7 @@ wifi.sta.config("SSID","password")
 srv=net.createServer(net.TCP)
 srv:listen(80,function(conn)
     conn:on("receive",function(conn,payload)
-    conn:send("<h1>www.sergioaugrod.com.br</h1>")
+    conn:send("<h1>www.sergioaugrod.com</h1>")
     end)
 end)
 {% endhighlight %}
